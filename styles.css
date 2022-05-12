@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-logo img{
+    height: 100px;
+}
+.header-links{
+    display: flex;
+    align-items: flex-end;
+}
+header .header-links ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+header .header-links ul li{
+    margin: 10px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+/* MAIN */
+
+main{
+    
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: rgb(156,208,124);
+    background: linear-gradient(90deg, rgba(156,208,124,1) 0%, rgba(59,158,118,1) 76%);
+}
+.hero-text{
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 5vh;
+}
+.hero-image{
+    justify-content: flex-start;
+    margin-top: 10vh;
+}
+main .hero .hero-text h2{
+
+}
+main .hero .hero-text p{
+
+}
+
+main .hero .hero-image img{
+    max-width: 100%;
+    display: inline;
+    left: 0px;
+    bottom: 10px;
+}
+/* PROYECTOS SECTION */
+.proyectos-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  .proyectos-section h2{
+    margin: 2vh;
+}
+  .proyectos-list{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+  }
+.proyecto-box{
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+  }
+/* CONTACTO */
+
+.contacto {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.contacto h2{
+    margin: 2vh;
+}
+  .iconos {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin-bottom: 2vh;
+  }
+  .icon{
+    font-size: 50px;
+    margin: 10px;
+    color: black;
+  }
+a{
+    color: black;
+}
